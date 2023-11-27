@@ -70,13 +70,13 @@ body * {
     left: 0;
     z-index: 1;
     top:50%;
-    animation: slide-out .2s;
+    animation: slide-out 0.2s;
     transform: translateY(-50%);
     
 }
 
 .light #switch button{
-   animation: slide-in 0.4s forwards;
+   animation: slide-in 0.2s forwards;
 }
 
 #switch button:hover{
@@ -135,7 +135,7 @@ ul li a:hover{
     align-items: center;
     justify-content: center;
     padding:16px;
-    transition: background .2s;
+    transition: background 0.2s;
     border-radius: 50%;
 }
 
